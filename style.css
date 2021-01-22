@@ -1,0 +1,298 @@
+
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=80d33c19-929f-4d11-a8f6-3dae838c9efa");
+@font-face{
+    font-family:"Industry W05 Bold";
+    src:url("./assets/fonts/9af0d4f1-307f-4a22-b5a2-c55bf0d9ec8b.woff2") format("woff2"),url("./assets/fonts/8a08b405-1b57-425c-9bc2-f90381b404b9.woff") format("woff");
+}
+@font-face{
+    font-family:"Normative W01 Regular";
+    src:url("./assets/fonts/8dcd4d2c-97e7-4b6a-acd3-8e95ebe05d5c.woff2") format("woff2"),url("./assets/fonts/956fe778-246a-47d9-b148-4e983556fb3c.woff") format("woff");
+}
+@font-face{
+    font-family:"Normative W01 Medium";
+    src:url("./assets/fonts/5ec7316a-9a46-4ed9-953e-703238ff1087.woff2") format("woff2"),url("./assets/fonts/0c63116f-e23f-4b0a-8fd2-054456c9deb3.woff") format("woff");
+}
+@font-face{
+    font-family:"Normative W01 Bold";
+    src:url("./assets/fonts/e923893f-121b-4553-b569-7c74b45de7aa.woff2") format("woff2"),url("./assets/fonts/eeb988df-8a91-4ad2-bc81-43dfc56749ea.woff") format("woff");
+}
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #6ab5ca; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #6ab5ca; 
+  }
+body p{
+    font-family:"Normative W01 Regular";
+}
+h1,h2,h3,h4,h5,a{
+    font-family:"Industry W05 Bold";
+}
+
+.main{
+    background-image: url('./assets//images/BGLayer.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.leftTopBannerLogo{
+    height: auto;
+    width: 50%;
+}
+.rightTopBannerLogo{
+ width: 100%;
+ position: absolute;
+ right:0;
+ width: 40%;
+}
+.leftBottomBannerLogo{
+    width: 55%;
+}
+.subscription{
+  background-image: url(./assets/images/bordered\ cover.png);
+  padding: 3%;
+  background-size: cover;
+  height: 350px;
+}
+.subscription div{
+    margin-left: 50px;
+}
+.subscription h3{
+    color: #6ab5ca;
+    text-transform: uppercase;
+}
+.subscription p{
+    color: gainsboro;
+}
+.subscription input{
+    width: 80%;
+    border-radius: 5px;
+    border: none;
+    padding: 2%;
+}
+.subscription button{
+   background-color: gold;
+   border: 0;
+   padding: 1% 3%;
+   font-weight: 700;
+   border-radius: 3px;
+}
+.snacksBannerLogo{
+    background-image: url('./assets/images/snacksBannerLogo.png');
+    background-size: cover;
+    padding: 6%;
+}
+.snacksBannerLogo h4{
+    width: 50%;
+    float: right;
+    color: #6ab5ca;
+}
+.snacksBannerLogo p{
+    width: 51%;
+    float: right;
+    color: gainsboro;
+}
+
+.stage2{
+   border-top: 10px solid #6ab5ca; 
+   background-color: black;
+   padding-bottom: 50px !important;
+}
+.xbox{
+    position: relative;
+    left: 5%;
+    height: auto !important; 
+    width: 200px !important;
+    top: -140px;
+}
+.game{
+    position: relative;
+    height: 100% !important;
+    width: 200px !important;
+    margin: 0 auto;
+    top: -70px;
+}
+.stage2 ul{
+    list-style: none;
+    position: relative;
+    color: #6ab5ca;
+    font-weight: 500;
+}
+.stage2 ul li a {
+    text-decoration: none;
+    padding-right: 5px;
+    text-transform: uppercase;
+    color: #6ab5ca;
+}
+.stage2 p {
+    color: gainsboro;
+    text-align: center;
+}
+
+/* Modal */
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #161a1ec9 !important;
+    margin: auto;
+    padding: 20px;
+    top: -10%;
+    border: 5px solid #6ab5ca !important;
+    width: 60% !important;
+    color: gainsboro;
+    padding: 3%;
+    text-align: center;
+    overflow: scroll;
+    height: -webkit-fill-available !important;
+  }
+  
+  .modal-content h3{
+      color: #6ab5ca; 
+  }
+  .modal-content p {
+      font-weight: 100 !important;
+      font-size: 15px !important;
+  }
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    right: 10px;
+    top: -3px;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+/* Registration Form */
+
+select{
+    padding: 2%;
+    width: 150px;
+}
+form{
+    width: 70%;
+    margin: 0 auto;
+}
+form .row >input{
+   padding: 1%; 
+   margin-top: 2%;
+   width: 90% !important;
+   margin: 0 auto;
+}
+/* The container */
+.containerCheck {
+    display: block;
+    position: relative;
+    padding-left: 50px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-align: left;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .containerCheck input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: transparent;
+    border:2px solid #6ab5ca
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .containerCheck:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .containerCheck input:checked ~ .checkmark {
+    background-color: #6ab5ca;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .containerCheck input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .containerCheck .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  .checkboxes img{
+      width: 50%;
+  }
+  .checkboxes button{
+    background-color: gold;
+    border: 0;
+    padding: 1% 3%;
+    font-weight: 700;
+    border-radius: 3px;
+    width: 80%;
+    margin-top: 4%;
+    font-size: 23px;
+  }
