@@ -106,6 +106,9 @@
         transform: translate(0%, -50%);
     }
 
+    .datebox .col-md-4{
+        width: 33.3%;
+    }
     .checkboxes img {
         width: 100%;
     }
