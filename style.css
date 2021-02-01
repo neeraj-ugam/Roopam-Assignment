@@ -112,7 +112,7 @@ a {
   background-repeat-x: no-repeat;
   background-size: 100%;
   position: relative;
-  background-image: url(/assets/images/Backgroundcenter.png);
+  background-image: url(./assets/images/Backgroundcenter.png);
   height: 100%;
 }
 
