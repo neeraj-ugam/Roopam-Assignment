@@ -40,7 +40,7 @@ window.onclick = function(event) {
 function setDays(){
   var start = 1;
   var end = 31;
-  var options = "";
+  var options = "<option>"+ 'Day' +"</option>";
   for(var year = start ; year <=end; year++){
     options += "<option>"+ year +"</option>";
   }
@@ -51,7 +51,7 @@ function setDays(){
 function setYears() {
 var start = 1900;
 var end = new Date().getFullYear();
-var options = "";
+var options = "<option>"+ 'Year' +"</option>";
 for(var year = start ; year <=end; year++){
   options += "<option>"+ year +"</option>";
 }

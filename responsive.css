@@ -63,7 +63,7 @@
     }
 
     .snacksBox {
-        width: 65%;
+        width: 60%;
     }
 
     .snacksBox p {
@@ -71,7 +71,7 @@
     }
 
     .snacks {
-        left: -30px;
+        left: -3px;
         position: absolute;
         z-index: 2;
         width: 100%;
@@ -115,5 +115,8 @@
 
     .modal-content {
         width: 90% !important;
+    }
+    form{
+        width: 100%;
     }
 }
