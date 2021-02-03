@@ -1,298 +1,474 @@
-
 @import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=80d33c19-929f-4d11-a8f6-3dae838c9efa");
-@font-face{
-    font-family:"Industry W05 Bold";
-    src:url("./assets/fonts/9af0d4f1-307f-4a22-b5a2-c55bf0d9ec8b.woff2") format("woff2"),url("./assets/fonts/8a08b405-1b57-425c-9bc2-f90381b404b9.woff") format("woff");
+
+@font-face {
+  font-family: "Industry W05 Bold";
+  src: url("./assets/fonts/9af0d4f1-307f-4a22-b5a2-c55bf0d9ec8b.woff2") format("woff2"), url("./assets/fonts/8a08b405-1b57-425c-9bc2-f90381b404b9.woff") format("woff");
 }
-@font-face{
-    font-family:"Normative W01 Regular";
-    src:url("./assets/fonts/8dcd4d2c-97e7-4b6a-acd3-8e95ebe05d5c.woff2") format("woff2"),url("./assets/fonts/956fe778-246a-47d9-b148-4e983556fb3c.woff") format("woff");
+
+@font-face {
+  font-family: "Normative W01 Regular";
+  src: url("./assets/fonts/8dcd4d2c-97e7-4b6a-acd3-8e95ebe05d5c.woff2") format("woff2"), url("./assets/fonts/956fe778-246a-47d9-b148-4e983556fb3c.woff") format("woff");
 }
-@font-face{
-    font-family:"Normative W01 Medium";
-    src:url("./assets/fonts/5ec7316a-9a46-4ed9-953e-703238ff1087.woff2") format("woff2"),url("./assets/fonts/0c63116f-e23f-4b0a-8fd2-054456c9deb3.woff") format("woff");
+
+@font-face {
+  font-family: "Normative W01 Medium";
+  src: url("./assets/fonts/5ec7316a-9a46-4ed9-953e-703238ff1087.woff2") format("woff2"), url("./assets/fonts/0c63116f-e23f-4b0a-8fd2-054456c9deb3.woff") format("woff");
 }
-@font-face{
-    font-family:"Normative W01 Bold";
-    src:url("./assets/fonts/e923893f-121b-4553-b569-7c74b45de7aa.woff2") format("woff2"),url("./assets/fonts/eeb988df-8a91-4ad2-bc81-43dfc56749ea.woff") format("woff");
+
+@font-face {
+  font-family: "Normative W01 Bold";
+  src: url("./assets/fonts/e923893f-121b-4553-b569-7c74b45de7aa.woff2") format("woff2"), url("./assets/fonts/eeb988df-8a91-4ad2-bc81-43dfc56749ea.woff") format("woff");
 }
+
 /* width */
 ::-webkit-scrollbar {
-    width: 5px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: #f1f1f1; 
-  }
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: #6ab5ca; 
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #6ab5ca; 
-  }
-body p{
-    font-family:"Normative W01 Regular";
-}
-h1,h2,h3,h4,h5,a{
-    font-family:"Industry W05 Bold";
+  width: 5px;
 }
 
-.main{
-    background-image: url('./assets//images/BGLayer.png');
-    background-repeat: no-repeat;
-    background-size: cover;
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
 }
-.leftTopBannerLogo{
-    height: auto;
-    width: 50%;
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #6ab5ca;
 }
-.rightTopBannerLogo{
- width: 100%;
- position: absolute;
- right:0;
- width: 40%;
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #6ab5ca;
 }
-.leftBottomBannerLogo{
-    width: 55%;
+
+body p {
+  font-family: "Normative W01 Regular" !important;
 }
-.subscription{
-  background-image: url(./assets/images/bordered\ cover.png);
-  padding: 3%;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+a,
+button {
+  font-family: "Industry W05 Bold" !important;
+}
+
+a {
+  color: #6ab5ca !important;
+}
+
+::placeholder {
+  color: black;
+  font-weight: 500;
+}
+
+.main {
+  background-image: url(./assets//images/BGLayer.png);
+  background-repeat: no-repeat;
   background-size: cover;
-  height: 350px;
-}
-.subscription div{
-    margin-left: 50px;
-}
-.subscription h3{
-    color: #6ab5ca;
-    text-transform: uppercase;
-}
-.subscription p{
-    color: gainsboro;
-}
-.subscription input{
-    width: 80%;
-    border-radius: 5px;
-    border: none;
-    padding: 2%;
-}
-.subscription button{
-   background-color: gold;
-   border: 0;
-   padding: 1% 3%;
-   font-weight: 700;
-   border-radius: 3px;
-}
-.snacksBannerLogo{
-    background-image: url('./assets/images/snacksBannerLogo.png');
-    background-size: cover;
-    padding: 6%;
-}
-.snacksBannerLogo h4{
-    width: 50%;
-    float: right;
-    color: #6ab5ca;
-}
-.snacksBannerLogo p{
-    width: 51%;
-    float: right;
-    color: gainsboro;
 }
 
-.stage2{
-   border-top: 10px solid #6ab5ca; 
-   background-color: black;
-   padding-bottom: 50px !important;
+/* Sharp border */
+.sharpBorder {
+  position: relative;
+  padding: 0 !important;
 }
-.xbox{
-    position: relative;
-    left: 5%;
-    height: auto !important; 
-    width: 200px !important;
-    top: -140px;
+
+.sharpBorder::after {
+  content: '' !important;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  background-size: 100%;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-image: url(./assets/images/backgroundbottom.png);
+  z-index: 1;
 }
-.game{
-    position: relative;
-    height: 100% !important;
-    width: 200px !important;
-    margin: 0 auto;
-    top: -70px;
+
+.sharpBorder::before {
+  content: '' !important;
+  height: 60px;
+  width: 100%;
+  top: -60px !important;
+  left: 0;
+  background-size: 100%;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-image: url(./assets/images/backgroundtop.png);
+  z-index: 1;
+  background-position-y: bottom;
 }
-.stage2 ul{
-    list-style: none;
-    position: relative;
-    color: #6ab5ca;
-    font-weight: 500;
+
+.boxed {
+  width: 100% !important;
+  background: none !important;
+  margin: 0 4%;
 }
+
+.sharpBorder div:first-child {
+  padding: 0% 2%;
+  background-repeat-x: no-repeat;
+  background-size: 100%;
+  position: relative;
+  background-image: url(./assets/images/Backgroundcenter.png);
+  height: 100%;
+}
+
+/* Sharp Border */
+
+.leftTopBannerLogo {
+  height: auto;
+  width: 40%;
+  position: relative;
+  left: 35px;
+}
+
+.rightTopBannerLogoDesktop {
+  width: 100%;
+  position: absolute;
+  right: 0;
+  width: 40%;
+}
+
+.rightTopBannerLogoMobile {
+  display: none;
+}
+
+.leftBottomBannerLogo {
+  width: 55%;
+}
+
+.subscription {
+  position: relative;
+  padding: 0 !important;
+  margin-top: 12% !important;
+}
+
+.boxed {
+  width: 100% !important;
+  background: none !important;
+  margin: 0 4%;
+}
+
+.subscription h3 {
+  color: #6ab5ca;
+  text-transform: uppercase;
+}
+
+.subscription p {
+  color: gainsboro;
+}
+
+.subscription input {
+  width: 80%;
+  border-radius: 5px;
+  border: none;
+  padding: 2%;
+}
+
+.subscription .requiredEmail {
+  display: none;
+}
+
+.subscription button {
+  background-color: #fec23e;
+  border: 0;
+  padding: 1% 3%;
+  font-weight: 700;
+  border-radius: 3px;
+  width: 12rem;
+}
+
+.snacksBanner {
+  margin-top: 6% !important;
+  margin-bottom: 10%;
+}
+
+.snacksBannerLogo {
+  margin-top: 6% !important;
+}
+
+.snacksBox {
+  width: 70%;
+  float: right;
+}
+.snacksBox p span a{
+  font-family: "Normative W01 Regular" !important;
+}
+.snacks {
+  left: -50px;
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  transform: translate(0, -10%);
+}
+
+.snacksBannerLogo h3 {
+  color: #6ab5ca;
+}
+
+.snacksBannerLogo p {
+  color: gainsboro;
+}
+
+.stage2 {
+  border-top: 10px solid #6ab5ca;
+  background-color: black;
+  padding-bottom: 50px !important;
+}
+
+.gameLogo {
+  margin-bottom: -120px;
+}
+
+.xbox {
+  position: relative;
+  left: 5%;
+  height: auto !important;
+  width: 200px !important;
+  top: -170px;
+}
+
+.game {
+  position: relative;
+  height: 100% !important;
+  width: 240px !important;
+  margin: 0 auto;
+  transform: translate(-50%, -50%);
+}
+
+.stage2 ul {
+  list-style: none;
+  position: relative;
+  color: #6ab5ca;
+  font-weight: 500;
+}
+
 .stage2 ul li a {
-    text-decoration: none;
-    padding-right: 5px;
-    text-transform: uppercase;
-    color: #6ab5ca;
+  text-decoration: none;
+  padding-right: 5px;
+  text-transform: uppercase;
+  color: #6ab5ca;
 }
+
 .stage2 p {
-    color: gainsboro;
-    text-align: center;
+  color: gainsboro;
+  text-align: center;
+}
+
+.stage2 p strong {
+  color: white;
 }
 
 /* Modal */
 
 /* The Modal (background) */
+
+
 .modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  }
-  
-  /* Modal Content */
-  .modal-content {
-    background-color: #161a1ec9 !important;
-    margin: auto;
-    padding: 20px;
-    top: -10%;
-    border: 5px solid #6ab5ca !important;
-    width: 60% !important;
-    color: gainsboro;
-    padding: 3%;
-    text-align: center;
-    overflow: scroll;
-    height: -webkit-fill-available !important;
-  }
-  
-  .modal-content h3{
-      color: #6ab5ca; 
-  }
-  .modal-content p {
-      font-weight: 100 !important;
-      font-size: 15px !important;
-  }
-  /* The Close Button */
-  .close {
-    color: #aaaaaa;
-    font-size: 28px;
-    font-weight: bold;
-    position: absolute;
-    right: 10px;
-    top: -3px;
-  }
-  
-  .close:hover,
-  .close:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
-  }
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow-y: scroll !important;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+}
+
+.modal-content div::after {
+  content: '' !important;
+  height: 65px;
+  width: 100%;
+  left: 0;
+  bottom: -60px;
+  background-size: 100%;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-image: url(./assets/images/backgroundbottom.png);
+  z-index: 1;
+}
+
+.modal-content div::before {
+  content: '' !important;
+  height: 65px;
+  width: 100%;
+  top: -60px !important;
+  left: 0;
+  background-size: 100%;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-image: url(./assets/images/backgroundtop.png);
+  z-index: 1;
+  background-position-y: bottom;
+}
+
+/* Modal Content */
+.modal-content {
+  background-image: url(./assets/images/Backgroundcenter.png);
+  background-size: 100%;
+  margin: auto;
+  padding: 20px;
+  width: 50% !important;
+  color: gainsboro;
+  padding: 3%;
+  text-align: center;
+  background-color: transparent !important;
+  border: none !important;
+  border-radius: 0 !important;
+  background-repeat: repeat;
+  /* overflow-y: scroll; */
+}
+
+.modal-content h3 {
+  color: #6ab5ca;
+}
+
+.modal-content p {
+  font-weight: 100 !important;
+  font-size: 15px !important;
+}
+
+/* The Close Button */
+.close {
+  color: #41464b;
+  font-size: 30px;
+  font-weight: bold;
+  position: absolute;
+  right: -20px;
+  top: -60px;
+  background-color: #6ab5ca;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  z-index: 2;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
 
 /* Registration Form */
 
-select{
-    padding: 2%;
-    width: 150px;
+.datebox select{
+  padding: 7%;
+  width: 100%;
 }
-form{
-    width: 70%;
-    margin: 0 auto;
+.datebox input{
+  width: 100%;
 }
-form .row >input{
-   padding: 1%; 
-   margin-top: 2%;
-   width: 90% !important;
-   margin: 0 auto;
+form {
+  width: 70%;
+  margin: 0 auto;
+  font-family: "Normative W01 Regular" !important;
 }
+
+form input {
+  padding: 2%;
+  margin: 3% 0%;
+  width: 100%;
+  font-weight: 800 !important;
+}
+
 /* The container */
 .containerCheck {
-    display: block;
-    position: relative;
-    padding-left: 50px;
-    margin-bottom: 12px;
-    cursor: pointer;
-    font-size: 22px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    text-align: left;
-  }
-  
-  /* Hide the browser's default checkbox */
-  .containerCheck input {
-    position: absolute;
-    opacity: 0;
-    cursor: pointer;
-    height: 0;
-    width: 0;
-  }
-  
-  /* Create a custom checkbox */
-  .checkmark {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 25px;
-    width: 25px;
-    background-color: transparent;
-    border:2px solid #6ab5ca
-  }
-  
-  /* On mouse-over, add a grey background color */
-  .containerCheck:hover input ~ .checkmark {
-    background-color: #ccc;
-  }
-  
-  /* When the checkbox is checked, add a blue background */
-  .containerCheck input:checked ~ .checkmark {
-    background-color: #6ab5ca;
-  }
-  
-  /* Create the checkmark/indicator (hidden when not checked) */
-  .checkmark:after {
-    content: "";
-    position: absolute;
-    display: none;
-  }
-  
-  /* Show the checkmark when checked */
-  .containerCheck input:checked ~ .checkmark:after {
-    display: block;
-  }
-  
-  /* Style the checkmark/indicator */
-  .containerCheck .checkmark:after {
-    left: 9px;
-    top: 5px;
-    width: 5px;
-    height: 10px;
-    border: solid white;
-    border-width: 0 3px 3px 0;
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
-  }
+  font-family: "Normative W01 Regular" !important;
+  display: block;
+  position: relative;
+  padding-left: 50px;
+  margin-bottom: 12px;
+  font-size: 15px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-align: left;
+}
 
-  .checkboxes img{
-      width: 50%;
-  }
-  .checkboxes button{
-    background-color: gold;
-    border: 0;
-    padding: 1% 3%;
-    font-weight: 700;
-    border-radius: 3px;
-    width: 80%;
-    margin-top: 4%;
-    font-size: 23px;
-  }
+/* Hide the browser's default checkbox */
+.containerCheck input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: transparent;
+  border: 2px solid #6ab5ca
+}
+
+/* On mouse-over, add a grey background color */
+.containerCheck:hover input~.checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.containerCheck input:checked~.checkmark {
+  background-color: #6ab5ca;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.containerCheck input:checked~.checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.containerCheck .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.checkboxes img {
+  width: 50%;
+}
+
+.checkboxes button {
+  background-color: #fec23e;
+  border: 0;
+  padding: 1% 3%;
+  font-weight: 700;
+  border-radius: 3px;
+  width: 90%;
+  margin-top: 4%;
+  font-size: 23px;
+}

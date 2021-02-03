@@ -1,61 +1,122 @@
-@media only screen and (max-width: 786px) {
+@media only screen and (max-width: 568px) {
 
-    main{
-        background-image: url('./assets/images/mobileBGLayer.jpg');
+    .main {
+        background-image: url('./assets/images/mobileBGLayer.jpg') !important;
+
     }
-    .leftTopBannerLogo{
+
+    .leftTopBannerLogo {
         margin: 0 auto;
-        width: 100%;
+        width: 70%;
     }
-    .rightTopBannerLogo{
+
+    .rightTopBannerLogoDesktop {
         display: none;
     }
-    .leftBottomBannerLogo{
+
+    .rightTopBannerLogoMobile {
+        width: 100%;
+        display: block;
+        position: absolute;
+        right: 0;
+    }
+
+    .leftBottomBannerLogo {
         margin: 0 auto;
         width: 100%;
     }
-    .subscription,.snacksBannerLogo{
-       background-color: #161a1ec9;
-       background-image: none;
-        padding: 3%;
-        background-size: contain;
+
+    .boxed {
+        margin: 0;
+    }
+
+    .sharpBorder div:first-child {
+        padding: 0% 2%;
+    }
+
+    .subscription {
         text-align: center;
-        background-repeat: no-repeat;
-        border: 5px solid #6ab5ca;
+        margin-bottom: 10%;
+        padding: 2%;
+        margin-top: 16% !important;
     }
-    .subscription div{
-        margin: 0%;
-        padding: 5%;
-    }
-    .subscription input{
+
+    .subscription input {
         width: 100%;
     }
-    .subscription button{
-    width: 100%;
+
+    .subscription button {
+        width: 100%;
     }
-    .snacksBannerLogo h4,p{
+
+    .snacksBanner {
+        margin-top: 6% !important;
+        margin-bottom: 35%;
+    }
+
+    .snacksBanner .logo {
+        order: 2;
+    }
+
+    .snacksBanner .snacksBannerLogo {
+        order: 1;
+    }
+
+    .snacksBox {
+        width: 60%;
+    }
+
+    .snacksBox p {
+        text-align: left;
+    }
+
+    .snacks {
+        left: -3px;
+        position: absolute;
+        z-index: 2;
+        width: 100%;
+        transform: translate(0, 0%);
+    }
+
+    .snacksBannerLogo h4,
+    p {
         text-align: center;
         float: none;
         width: 100% !important;
     }
-    .xbox{
+
+    .gameLogo {
+        margin-bottom: -80px;
+    }
+
+    .xbox {
         position: relative;
         left: 5%;
-        height: auto !important; 
+        height: auto !important;
         width: 150px !important;
         top: -100px;
     }
-    .game{
+
+    .game {
         position: relative;
         height: 100% !important;
         width: 150px !important;
         margin: 0 auto;
-        top: -50px;
+        top: 0;
+        transform: translate(0%, -50%);
     }
-    .checkboxes img{
+
+    .datebox .col-md-4{
+        width: 33.3%;
+    }
+    .checkboxes img {
         width: 100%;
     }
-    .modal-content{
+
+    .modal-content {
         width: 90% !important;
     }
-  }
+    form{
+        width: 100%;
+    }
+}
